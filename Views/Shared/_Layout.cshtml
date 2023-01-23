@@ -1,0 +1,21 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+     <link rel="stylesheet" href="~/css/main.css" asp-append-version="true"/>
+    <title>@ViewBag.Title - Backend2</title>
+</head>
+<body>
+<header>
+    <h2>Backend2</h2>
+    <nav><a class="home" asp-controller="Calc" asp-action="Index">Home</a></nav>
+</header>
+<main>
+        @RenderBody()
+</main>
+<footer>
+    <hr/>
+    © 2022 - Backend2
+</footer>
+</body>
+</html>
